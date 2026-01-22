@@ -204,7 +204,7 @@ export default function TrackingPage() {
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-gray-600 dark:text-gray-400">{t('rides.distance')}</span>
                       <span className="font-semibold text-gray-900 dark:text-white">
-                        {Math.max(0, (10 - (progress / 10)).toFixed(1))} km
+                      {Math.max(0, 10 - progress / 10).toFixed(1)} km
                       </span>
                     </div>
                   </div>
